@@ -46,106 +46,107 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(92,92,187,0.978028711
     100%  {transform:scaleY(-1) rotate(-135deg)}
   }
 
-.text-richblack-5{color:#F1F2FF}
-.text-richblack-25{color:#DBDDEA}
-.text-richblack-50{color:#C5C7D4}
-.text-richblack-100{color:#AFB2BF}
-.text-richblack-200{color:#999DAA}
-.text-richblack-300{color:#838894}
-.text-richblack-400{color:#6E727F}
-.text-richblack-500{color:#585D69}
-.text-richblack-600{color:#424854}
-.text-richblack-700{color:#2C333F}
-.text-richblack-800{color:#161D29}
-.text-richblack-900{color:#000814}
-.text-richblue-5{color:#ECF5FF}
-.text-richblue-25{color:#C6D6E1}
-.text-richblue-50{color:#A0B7C3}
-.text-richblue-100{color:#7A98A6}
-.text-richblue-200{color:#537988}
-.text-richblue-300{color:#2D5A6A}
-.text-richblue-400{color:#073B4C}
-.text-richblue-500{color:#063544}
-.text-richblue-600{color:#042E3B}
-.text-richblue-700{color:#032833}
-.text-richblue-800{color:#01212A}
-.text-richblue-900{color:#001B22}
-.text-blue-5{color:#EAF5FF}
-.text-blue-25{color:#B4DAEC}
-.text-blue-50{color:#7EC0D9}
-.text-blue-100{color:#47A5C5}
-.text-blue-200{color:#118AB2}
-.text-blue-300{color:#0F7A9D}
-.text-blue-400{color:#0C6A87}
-.text-blue-500{color:#0A5A72}
-.text-blue-600{color:#074B5D}
-.text-blue-700{color:#053B48}
-.text-blue-800{color:#022B32}
-.text-blue-900{color:#001B1D}
-.text-caribbeangreen-5{color:#C1FFFD}
-.text-caribbeangreen-25{color:#83F1DE}
-.text-caribbeangreen-50{color:#44E4BF}
-.text-caribbeangreen-100{color:#06D6A0}
-.text-caribbeangreen-200{color:#05BF8E}
-.text-caribbeangreen-300{color:#05A77B}
-.text-caribbeangreen-400{color:#049069}
-.text-caribbeangreen-500{color:#037957}
-.text-caribbeangreen-600{color:#026144}
-.text-caribbeangreen-700{color:#014A32}
-.text-caribbeangreen-800{color:#01321F}
-.text-caribbeangreen-900{color:#001B0D}
-.text-olivegreen-100{color:#D2E3C8}
-.text-olivegreen-200{color:#86A789}
-.text-olivegreen-300{color:#739072}
-.text-olivegreen-500{color:#4F6F52}
-.text-brown-5{color:#FFF4C4}
-.text-brown-25{color:#FFE395}
-.text-brown-50{color:#FFD166}
-.text-brown-100{color:#E7BC5B}
-.text-brown-200{color:#CFA64F}
-.text-brown-300{color:#B89144}
-.text-brown-400{color:#A07C39}
-.text-brown-500{color:#88662D}
-.text-brown-600{color:#705122}
-.text-brown-700{color:#593C17}
-.text-brown-800{color:#41260B}
-.text-brown-900{color:#291100}
-.text-pink-5{color:#FFF1F1}
-.text-pink-25{color:#FBC7D1}
-.text-pink-50{color:#F79CB0}
-.text-pink-100{color:#F37290}
-.text-pink-200{color:#EF476F}
-.text-pink-300{color:#D43D63}
-.text-pink-400{color:#BA3356}
-.text-pink-500{color:#9F294A}
-.text-pink-600{color:#841E3E}
-.text-pink-700{color:#691432}
-.text-pink-800{color:#4F0A25}
-.text-pink-900{color:#340019}
-.text-yellow-5{color:#FFF970}
-.text-yellow-25{color:#FFE83D}
-.text-yellow-50{color:#FFD60A}
-.text-yellow-100{color:#E7C009}
-.text-yellow-200{color:#CFAB08}
-.text-yellow-300{color:#B69507}
-.text-yellow-400{color:#9E8006}
-.text-yellow-500{color:#866A04}
-.text-yellow-600{color:#6E5503}
-.text-yellow-700{color:#553F02}
-.text-yellow-800{color:#3D2A01}
-.text-yellow-900{color:#251400}
-.text-pure-greys-5{color:#F9F9F9}
-.text-pure-greys-25{color:#E2E2E2}
-.text-pure-greys-50{color:#CCCCCC}
-.text-pure-greys-100{color:#B5B5B5}
-.text-pure-greys-200{color:#9E9E9E}
-.text-pure-greys-300{color:#888888}
-.text-pure-greys-400{color:#717171}
-.text-pure-greys-500{color:#5B5B5B}
-.text-pure-greys-600{color:#444444}
-.text-pure-greys-700{color:#2D2D2D}
-.text-pure-greys-800{color:#171717}
-.text-pure-greys-900{color:#141414}
+.text-richblack-5{color:#F1F2FF !important;}
+.text-richblack-25{color:#DBDDEA !important;}
+.text-richblack-50{color:#C5C7D4 !important;}
+.text-richblack-100{color:#AFB2BF !important;}
+.text-richblack-200{color:#999DAA !important;}
+.text-richblack-300{color:#838894 !important;}
+.text-richblack-400{color:#6E727F !important;}
+.text-richblack-500{color:#585D69 !important;}
+.text-richblack-600{color:#424854 !important;}
+.text-richblack-700{color:#2C333F !important;}
+.text-richblack-800{color:#161D29 !important;}
+.text-richblack-900{color:#000814 !important;}
+.text-richblue-5{color:#ECF5FF !important;}
+.text-richblue-25{color:#C6D6E1 !important;}
+.text-richblue-50{color:#A0B7C3 !important;}
+.text-richblue-100{color:#7A98A6 !important;}
+.text-richblue-200{color:#537988 !important;}
+.text-richblue-300{color:#2D5A6A !important;}
+.text-richblue-400{color:#073B4C !important;}
+.text-richblue-500{color:#063544 !important;}
+.text-richblue-600{color:#042E3B !important;}
+.text-richblue-700{color:#032833 !important;}
+.text-richblue-800{color:#01212A !important;}
+.text-richblue-900{color:#001B22 !important;}
+.text-blue-5{color:#EAF5FF !important;}
+.text-blue-25{color:#B4DAEC !important;}
+.text-blue-50{color:#7EC0D9 !important;}
+.text-blue-100{color:#47A5C5 !important;}
+.text-blue-200{color:#118AB2 !important;}
+.text-blue-300{color:#0F7A9D !important;}
+.text-blue-400{color:#0C6A87 !important;}
+.text-blue-500{color:#0A5A72 !important;}
+.text-blue-600{color:#074B5D !important;}
+.text-blue-700{color:#053B48 !important;}
+.text-blue-800{color:#022B32 !important;}
+.text-blue-900{color:#001B1D !important;}
+.text-caribbeangreen-5{color:#C1FFFD !important;}
+.text-caribbeangreen-25{color:#83F1DE !important;}
+.text-caribbeangreen-50{color:#44E4BF !important;}
+.text-caribbeangreen-100{color:#06D6A0 !important;}
+.text-caribbeangreen-200{color:#05BF8E !important;}
+.text-caribbeangreen-300{color:#05A77B !important;}
+.text-caribbeangreen-400{color:#049069 !important;}
+.text-caribbeangreen-500{color:#037957 !important;}
+.text-caribbeangreen-600{color:#026144 !important;}
+.text-caribbeangreen-700{color:#014A32 !important;}
+.text-caribbeangreen-800{color:#01321F !important;}
+.text-caribbeangreen-900{color:#001B0D !important;}
+.text-olivegreen-100{color:#D2E3C8 !important;}
+.text-olivegreen-200{color:#86A789 !important;}
+.text-olivegreen-300{color:#739072 !important;}
+.text-olivegreen-500{color:#4F6F52 !important;}
+.text-brown-5{color:#FFF4C4 !important;}
+.text-brown-25{color:#FFE395 !important;}
+.text-brown-50{color:#FFD166 !important;}
+.text-brown-100{color:#E7BC5B !important;}
+.text-brown-200{color:#CFA64F !important;}
+.text-brown-300{color:#B89144 !important;}
+.text-brown-400{color:#A07C39 !important;}
+.text-brown-500{color:#88662D !important;}
+.text-brown-600{color:#705122 !important;}
+.text-brown-700{color:#593C17 !important;}
+.text-brown-800{color:#41260B !important;}
+.text-brown-900{color:#291100 !important;}
+.text-pink-5{color:#FFF1F1 !important;}
+.text-pink-25{color:#FBC7D1 !important;}
+.text-pink-50{color:#F79CB0 !important;}
+.text-pink-100{color:#F37290 !important;}
+.text-pink-200{color:#EF476F !important;}
+.text-pink-300{color:#D43D63 !important;}
+.text-pink-400{color:#BA3356 !important;}
+.text-pink-500{color:#9F294A !important;}
+.text-pink-600{color:#841E3E !important;}
+.text-pink-700{color:#691432 !important;}
+.text-pink-800{color:#4F0A25 !important;}
+.text-pink-900{color:#340019 !important;}
+.text-yellow-5{color:#FFF970 !important;}
+.text-yellow-25{color:#FFE83D !important;}
+.text-yellow-50{color:#FFD60A !important;}
+.text-yellow-100{color:#E7C009 !important;}
+.text-yellow-200{color:#CFAB08 !important;}
+.text-yellow-300{color:#B69507 !important;}
+.text-yellow-400{color:#9E8006 !important;}
+.text-yellow-500{color:#866A04 !important;}
+.text-yellow-600{color:#6E5503 !important;}
+.text-yellow-700{color:#553F02 !important;}
+.text-yellow-800{color:#3D2A01 !important;}
+.text-yellow-900{color:#251400 !important;}
+.text-pure-greys-5{color:#F9F9F9 !important;}
+.text-pure-greys-25{color:#E2E2E2 !important;}
+.text-pure-greys-50{color:#CCCCCC !important;}
+.text-pure-greys-100{color:#B5B5B5 !important;}
+.text-pure-greys-200{color:#9E9E9E !important;}
+.text-pure-greys-300{color:#888888 !important;}
+.text-pure-greys-400{color:#717171 !important;}
+.text-pure-greys-500{color:#5B5B5B !important;}
+.text-pure-greys-600{color:#444444 !important;}
+.text-pure-greys-700{color:#2D2D2D !important;}
+.text-pure-greys-800{color:#171717 !important;}
+.text-pure-greys-900{color:#141414 !important;}
+
 
 .bg-richblack-5{background-color:#F1F2FF !important;}
 .bg-richblack-25{background-color:#DBDDEA !important;}
