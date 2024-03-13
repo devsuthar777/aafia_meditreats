@@ -182,8 +182,8 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(92,92,187,0.978028711
 .bg-blue-600{background-color:#074B5D}
 .bg-blue-700{background-color:#053B48}
 .bg-blue-800 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(2 43 50 / var(--tw-bg-opacity));
+    --tw-bg-opacity: 1 !important;
+    background-color: rgb(2 43 50 / var(--tw-bg-opacity)) !important;
 }
 .bg-blue-900{background-color:#001B1D}
 .bg-caribbeangreen-5{background-color:#C1FFFD}
