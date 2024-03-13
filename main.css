@@ -150,17 +150,14 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(92,92,187,0.978028711
 .bg-richblack-5{background-color:#F1F2FF}
 .bg-richblack-25{background-color:#DBDDEA}
 .bg-richblack-50{background-color:#C5C7D4}
-.bg-blue-100 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(71 165 197 / var(--tw-bg-opacity));
-}
-.bg-richblack-200{background-color:#999DAA}
+
+
 .bg-richblack-300{background-color:#838894}
 .bg-richblack-400{background-color:#6E727F}
 .bg-richblack-500{background-color:#585D69}
 .bg-richblack-600{background-color:#424854}
 .bg-richblack-700{background-color:#2C333F}
-.bg-richblack-800{background-color:#161D29}
+
 .bg-richblack-900{background-color:#000814}
 .bg-richblue-5{background-color:#ECF5FF}
 .bg-richblue-25{background-color:#C6D6E1}
