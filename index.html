@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" >
+</head>
+<body class="h-full w-screen overflow-x-hidden transition-all  duration-200 flex-col flex md:gap-0 gap-9">
+    <div id="loaderDiv" class="flex h-screen w-screen items-center justify-center">
+        <div class="loader">
+        </div>
+    </div>
+   
+    <div class="" id="mainContent">
+        <section id="informationSection">
+            <div class="w-[98%] md:w-10/12  flex h-24 mx-auto gap-5 justify-between items-center">
+                    <div class="w-[20%] h-full flex "><img class="my-auto" src="assets/aafia-meditreatreats-high-resolution-logo-transparent.png" loading="lazy"></div>
+                    <div class="w-[10%] h-9" ><img class="w-11 h-11" src="assets/navbarinfoImages/madicalcertification.png" alt="" loading="lazy"></div>
+                    <div class="w-[20%] flex gap-2 items-center">
+                        <img class="w-11 h-11" src="assets/navbarinfoImages/consultantlogo.svg" alt="" loading="lazy">
+                        <div class="md:flex flex-col hidden ">
+                            <P class="text-xs text-richblack-400">Second Medical Opinion</P>
+                            <P class="text-sm text-richblack-400 font-bold">Book Consultaion</P>
+                        </div>
+                    </div>
+                    <div class="w-[20%] flex gap-2 items-center">
+                        <img class="w-11 h-11" src="assets/navbarinfoImages/calllogo.svg" alt="" loading="lazy">
+                        <div  class="md:flex flex-col hidden ">
+                            <P class="text-xs text-richblack-400">Call us on</P>
+                            <P class="text-sm text-richblack-400 font-bold">954 591 8699</P>
+                        </div>
+                    </div>
+                    
+                    <div class="w-[20%] flex gap-2 items-center">
+                        <img class="w-11 h-11" src="assets/navbarinfoImages/maillogo.svg" alt="" loading="lazy">
+                        <div class="md:flex flex-col hidden ">
+                            <P class="text-xs text-richblack-400">Email us on</P>
+                            <P class="text-sm text-richblack-400 font-bold">info@meditreats.com</P>
+                        </div>
+                    </div>
+                    <div class="w-[10%]  md:flex-row gap-2 flex flex-col">
+                        <img class="w-11 h-11" src="assets/navbarinfoImages/indialogo.svg" alt="" loading="lazy">
+                        <select name="countrySelector" class="w-4 mx-auto">
+                            <option>Sri Lanka</option>
+                            <option>United States Of America</option>
+                            <option>England</option>
+                            <option>Germany</option>
+                            <option>France</option>
+                        </select>
+                    </div>
+            </div>
+        </section>
+        <nav class="w-full h-11  bg-[#4992ff]">
+            <div class="w-full md:w-10/12  flex justify-around mx-auto  h-full items-center">
+                <div class="h-full w-full  "> 
+                    <ul class="flex  h-full justify-between items-center overflow-x-auto gap-5 whitespace-nowrap ">
+                        <li class="text-richblack-5 ">Home</li>
+                        <li class="text-richblack-5">About Us</li>
+                        <li class="text-richblack-5">Treatments +</li>
+                        <li class="text-richblack-5">Destinations +</li>
+                        <li class="text-richblack-5">Hospitals </li>
+                        <li class="text-richblack-5">FAQs</li>
+                        <li class="text-richblack-5">Blog</li>
+                        <li class="text-richblack-5">Request A Quate</li>
+                       
+                    <div class="bg-[#0066ff] h-full flex text-white  ">
+                    <input type="text" id="username" name="username" placeholder="Search" class="bg-[#0066ff] h-full text-white px-5 " >
+                    </div>
+                </div>   
+            </div>          
+        </nav>
+    
+        <section id="section1" class=" h-[350px] customBackground bg-cover bg-center w-full  ">
+            <div class="w-[99%] md:w-10/12  mx-auto text-white h-full flex flex-col ">
+                <div class="md:w-[50%] w-[95%] mx-auto md:mx-0 h-full flex flex-col justify-evenly my-10 items-center md:items-start ">
+                    <div class="">
+                        <ul class="flex gap-2 font-bold text-richblack-5">
+                            <li>Home</li>
+                            <li class="text-pink-400">></li>
+                            <li>Treatments</li>
+                            <li class="text-pink-400">></li>
+                            <li>Orthopedics</li>
+                            <li class="text-pink-400">></li>
+                            <li>Knee Replacement</li>
+                        </ul>
+                    </div>
+                    <h1 class="text-3xl font-extrabold text-center md:text-start">Total Knee Replacement</h1>
+                    <p class="text-center md:text-start">Total knee replacement is a surgery to remove and replace the whole
+                    damage knee joint with an artifical joint.</p> 
+                    <button class="font-bold px-3 py-2 w-1/2 bg-[#0066ff]">Enquire Now</button>
+                <div> 
+            </div>
+        </section>
+        <div class="headlines w-full h-12 border-b"> 
+            <div class="md:w-10/12 w-[99%] overflow-x-auto gap-5 whitespace-nowrap mx-auto flex h-full my-auto items-center justify-between font-bold text-richblack-500 transition-all duration-200">
+                <a class="hover:cursor-pointer" href="#overviewSection" >Overview</a>
+                <a class="hover:cursor-pointer" href="#eligibilitySection">Eligibility</a>
+                <a class="hover:cursor-pointer" href="#preaprationSection">Prepration</a>
+                <a class="hover:cursor-pointer" href="#aboutTreatmentSection">About Treatment</a>
+                <a class="hover:cursor-pointer" href="#postTreatmentSection">Post-Treatment Care</a>
+                <a class="hover:cursor-pointer" href="#recoveryTipsSection">Recovery Tips</a>
+                <a class="hover:cursor-pointer" href="#faqsSection">FAQs</a>
+                <a class="hover:cursor-pointer" href="#patientStoriesSection">Patient Stories</a>
+            </div>           
+        </div>
+    
+        <section id="overviewSection" class=" w-full h-[400px] md:h-[400px] overflow-hidden flex  " >
+            <div class="md:flex flex md:w-10/12 w-[90%]  h-full mx-auto gap-11 justify-between items-center border-blue-100  border-b-2  border-dashed  ">
+                <div class="md:w-1/2 w-full flex flex-col  h-8/10 gap-4  ">
+                    <h2 class="text-2xl font-bold text-richblack-700">Treatment Overview</h2>
+                    <p class="text-sm ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis, cum ducimus? Vero dolores ducimus dicta veritatis, sapiente nam laborum hic!</p>
+                    <p class="text-sm ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, sunt esse quia repellendus eius cupiditate quos, magni harum architecto blanditiis, incidunt alias perferendis recusandae expedita eum quod sint. Sapiente fuga quibusdam sint, rem dolore perspiciatis odio ratione voluptatibus tenetur quidem, iure sed! Assumenda, asperiores. Aliquam incidunt cum ab inventore et.</p>
+                    <p class="text-sm ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis reprehenderit beatae, quibusdam quae dolorem minus inventore.</p>
+                </div>
+                <div class="w-1/2 rounded-md hidden md:block h-5/6  ">
+                    <img class="w-full rounded-md h-full my-auto" src="/assets/doctor-examine.webp" loading="lazy">
+                </div>
+    
+                
+            </div>
+        </section>
+    
+        <section id="eligibilitySection" class=" w-full h-[500px] md:h-[400px] mt-5 md:mt-0" >
+            <div class="flex md:w-10/12 w-[90%] h-full mx-auto gap-11 justify-between items-center   ">
+    
+                <div class="md:w-2/3 w-full flex flex-col  h-full justify-center items-center md:items-start   gap-7  border-blue-100  border-b-2  border-dashed">
+                    <h2 class="text-2xl font-bold text-richblack-700">Eligibility For Treatment</h2>
+                    <p class="text-sm ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita officia nulla ut voluptatem quae adipisci unde dicta mollitia fugiat quia, incidunt architecto impedit illum qui! Rerum iusto quibusdam omnis sit perferendis tempora natus tempore, accusamus culpa distinctio veniam! Ipsa, exercitationem!</p>
+                    <p class="text-sm ">In general, gastric bypass could be a good option if:</p>
+                    <ul class="text-sm flex flex-col gap-2">
+                        <li class=""> <span class="text-blue-100 text-xs">&#9675;</span> BMI (body mass index) is 40 or more</li>
+                        <li class=""><span class="text-blue-100 text-xs">&#9675;</span> Your BMI is 30 or more width serve width-related health conditions like type-2 diabetes and high blood pressure</li>
+                        <li class=""><span class="text-blue-100 text-xs">&#9675;</span> You are willing to make permanent changes in the lifestyle</li>
+                    </li>
+                </div>
+    
+                <div id="contact_form" class="w-[390px] h-[450px] invisible md:visible  mt-24 border hidden border-pure-greys-100 shadow-xl rounded-md">
+                    <div class="w-[80%] mx-auto flex flex-col gap-4 mt-3 ">
+                    <h1 class="text-3xl italic font-bold text-[#0066ff] text">Need Help?</h1>
+                    <p class="text-base font-semibold">Just let us know we will be happy to assist you.</p>
+                    <div class="flex flex-col gap-4">
+                        <input class="border py-2 px-2 w-full border-richblack-200 rounded-md" placeholder="Full Name">
+                        <input class="border py-2 px-2 w-full border-richblack-200 rounded-md" placeholder="Email">
+                        <input class="border py-2 px-2 w-full border-richblack-200 rounded-md" placeholder="Phone Number">
+                        <textarea class="border py-2 px-2 w-full border-richblack-200 rounded-md" placeholder="Describe Your Treatment Requirement"></textarea>
+                    </div>
+                    <button class="bg-[#0066ff] py-2 text-white rounded-lg">Send Enquiry</button>
+                    
+                    </div>
+    
+                </div>
+                
+            </div>
+        </section>
+    
+        <section id="preaprationSection" class=" w-full md:h-[400px] h-[600px] overflow-hidden " >
+            <div class="flex md:w-10/12 w-[90%] h-full mx-auto gap-11 justify-between items-center   ">
+    
+                <div class="md:w-2/3 w-full flex flex-col  h-full justify-center items-center md:items-start gap-7  border-blue-100  border-b-2  border-dashed">
+                    <h2 class="text-2xl font-bold text-richblack-700">Preparation Before Treatment</h2>
+                    <p class="text-sm ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita officia nulla ut voluptatem quae adipisci unde dicta mollitia fugiat quia, incidunt architecto impedit illum qui! Rerum iusto quibusdam omnis sit perferendis tempora natus tempore, accusamus culpa distinctio veniam! Ipsa, exercitationem!</p>
+                    <p class="text-sm ">In general, gastric bypass could be a good option if:</p>
+                    <ul class="text-sm flex flex-col gap-2">
+                        <li class=""> <span class="text-blue-100 text-xs">&#9675;</span> BMI (body mass index) is 40 or more</li>
+                        <li class=""><span class="text-blue-100 text-xs">&#9675;</span> Your BMI is 30 or more width serve width-related health conditions like type-2 diabetes and high blood pressure</li>
+                        <li class=""><span class="text-blue-100 text-xs">&#9675;</span> You are willing to make permanent changes in the lifestyle</li>
+                    </li>
+                </div>
+                
+            </div>
+        </section>
+    
+        <section id="aboutTreatmentSection" class="w-full md:h-[400px] h-[600px] overflow-hidden" >
+            <div class="flex w-10/12 h-full mx-auto gap-11 justify-between items-center   ">
+    
+                <div class="md:w-2/3 w-full flex flex-col  h-full justify-center items-center md:items-start gap-7  border-blue-100  border-b-2  border-dashed">
+                    <h2 class="text-2xl font-bold text-richblack-700">About Treatment</h2>
+                    <p class="text-sm ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita officia nulla ut voluptatem quae adipisci unde dicta mollitia fugiat quia, incidunt architecto impedit illum qui! Rerum iusto quibusdam omnis sit perferendis tempora natus tempore, accusamus culpa distinctio veniam! Ipsa, exercitationem!</p>
+                    <p class="text-sm ">In general, gastric bypass could be a good option if:</p>
+                    <ul class="text-sm flex flex-col gap-2">
+                        <li class=""> <span class="text-blue-100 text-xs">&#9675;</span> BMI (body mass index) is 40 or more</li>
+                        <li class=""><span class="text-blue-100 text-xs">&#9675;</span> Your BMI is 30 or more width serve width-related health conditions like type-2 diabetes and high blood pressure</li>
+                        <li class=""><span class="text-blue-100 text-xs">&#9675;</span> You are willing to make permanent changes in the lifestyle</li>
+                    </li>
+                </div>
+                
+            </div>
+        </section>
+        
+        <section id="postTreatmentSection" class=" w-full md:h-[400px] h-[450px] overflow-hidden " >
+            <div class="flex w-10/12 h-full mx-auto gap-11 justify-between items-center   ">
+    
+                <div class="md:w-2/3 w-full flex flex-col  h-full justify-center items-center md:items-start gap-7  border-blue-100  border-b-2  border-dashed">
+                    <h2 class="text-2xl font-bold text-richblack-700">Post-Treatment Care Treatment</h2>
+                    <p class="text-sm ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita officia nulla ut voluptatem quae adipisci unde dicta mollitia fugiat quia, incidunt architecto impedit illum qui! Rerum iusto quibusdam omnis sit perferendis tempora natus tempore, accusamus culpa distinctio veniam! Ipsa, exercitationem!</p>
+                    <p class="text-sm ">In general, gastric bypass could be a good option if:</p>
+                    <ul class="text-sm flex flex-col gap-2">
+                        <li class=""> <span class="text-blue-100 text-xs">&#9675;</span> BMI (body mass index) is 40 or more</li>
+                        <li class=""><span class="text-blue-100 text-xs">&#9675;</span> Your BMI is 30 or more width serve width-related health conditions like type-2 diabetes and high blood pressure</li>
+                        <li class=""><span class="text-blue-100 text-xs">&#9675;</span> You are willing to make permanent changes in the lifestyle</li>
+                    </li>
+                </div>
+                
+            </div>
+        </section>
+    
+        <section id="recoveryTipsSection" class=" w-full md:h-[400px] h-[450px] overflow-hidden " >
+            <div class="flex w-10/12 h-full mx-auto gap-11 justify-between items-center   ">
+    
+                <div class="md:w-2/3 w-full flex flex-col  h-full justify-center items-center md:items-start gap-7  border-blue-100  border-b-2  border-dashed">
+                    <h2 class="text-2xl font-bold text-richblack-700">Treatment Recovery Tips</h2>
+                    <p class="text-sm ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita officia nulla ut voluptatem quae adipisci unde dicta mollitia fugiat quia, incidunt architecto impedit illum qui! Rerum iusto quibusdam omnis sit perferendis tempora natus tempore, accusamus culpa distinctio veniam! Ipsa, exercitationem!</p>
+                    <p class="text-sm ">In general, gastric bypass could be a good option if:</p>
+                    <ul class="text-sm flex flex-col gap-2">
+                        <li class=""> <span class="text-blue-100 text-xs">&#9675;</span> BMI (body mass index) is 40 or more</li>
+                        <li class=""><span class="text-blue-100 text-xs">&#9675;</span> Your BMI is 30 or more width serve width-related health conditions like type-2 diabetes and high blood pressure</li>
+                        <li class=""><span class="text-blue-100 text-xs">&#9675;</span> You are willing to make permanent changes in the lifestyle</li>
+                    </li>
+                </div>
+                
+            </div>
+        </section>
+    
+        <section id="faqsSection" class=" w-full  overflow-hidden " >
+            <div class="flex w-10/12 h-full mx-auto  justify-between items-center   ">
+    
+                <div class="md:w-2/3 w-full flex flex-col  h-full justify-center items-center md:items-start gap-7  border-blue-100  border-b-2  border-dashed">
+                    <h2 class="text-2xl font-bold text-richblack-700 mt-4 ">Treatment FAQs.
+                    </h2>
+                    <ul class="flex flex-col gap-4 mb-4">
+                        <li class="text-xl border-t py-4  flex flex-col ">
+                            <p class="text-xl  py-4  flex items-center">
+                                <span onclick="questionAnswerHandler(event)" id="question1" class="text-blue-200 text-4xl hover:cursor-pointer hover:scale-105 rounded-full  text-center minus">&#8722;</span>
+                                <span>How so I know the clinic I am searching is verified?</span>
+                            <p>
+                            <p id="answer1" id class="text-base border-l border-blue-200 ml-16 px-2">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla reprehenderit rerum magnam quisquam facilis adipisci reiciendis aliquam maxime incidunt suscipit animi accusantium inventore perspiciatis dicta harum alias a, ullam nam?
+                            </p>
+                        </li>
+                        <li class="text-xl border-t py-4  flex flex-col">
+                            <p class="text-xl  py-4  flex items-center">
+                                <span onclick="questionAnswerHandler(event)" id="question2" class="text-blue-200 text-4xl hover:cursor-pointer hover:scale-105 rounded-full  text-center plus">&#65122;</span>
+                                <span>I can't travel alone so can some family member or friend of mine accompany me?</span>
+                                
+                            </p>
+                            <p id="answer2" class="text-base border-l border-blue-200 ml-16 px-2 hidden">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla reprehenderit rerum magnam quisquam facilis adipisci reiciendis aliquam maxime incidunt suscipit animi accusantium inventore perspiciatis dicta harum alias a, ullam nam?
+                            </p>
+                        </li>
+                        <li class="text-xl border-t py-4  flex flex-col">
+                            <p class="text-xl  py-4  flex items-center">
+                                <span onclick="questionAnswerHandler(event)" id="question3" class="text-blue-200 text-4xl hover:cursor-pointer hover:scale-105 rounded-full  text-center plus">&#65122;</span>
+                                <span>Can I see my doctor before I decide and what about my post recovery?</span>
+                                
+                            </p>
+                            <p id="answer3" class="text-base border-l border-blue-200 ml-16 px-2 hidden">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla reprehenderit rerum magnam quisquam facilis adipisci reiciendis aliquam maxime incidunt suscipit animi accusantium inventore perspiciatis dicta harum alias a, ullam nam?
+                            </p>
+                        </li>
+                        <li class="text-xl border-t py-4  flex  flex-col">
+                            
+                            <p class="text-xl  py-4  flex items-center">
+                                <span onclick="questionAnswerHandler(event)" id="question4" class="text-blue-200 text-4xl hover:cursor-pointer hover:scale-105 rounded-full  text-center plus">&#65122;</span>
+                                <span>How do I share my reports and medical cases with the clinic of my choice?</span>
+                                
+                            </p>
+                            <p id="answer4" class="text-base border-l border-blue-200 ml-16 px-2 hidden">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla reprehenderit rerum magnam quisquam facilis adipisci reiciendis aliquam maxime incidunt suscipit animi accusantium inventore perspiciatis dicta harum alias a, ullam nam?
+                            </p>
+                        </li>
+                    </ul>
+                    
+                </div>
+                
+            </div>
+        </section>
+    
+        <section id="patientStoriesSection" class=" w-full  md:h-[450px] h-full  overflow-hidden mb-4 " >
+            <div class="flex w-10/12  flex-col h-full mx-auto gap-5     ">
+                <h2 class="text-2xl font-bold text-richblack-700 mt-4 ">Patient Stories.
+                </h2>
+            <div class="flex gap-5 h-full  md:flex-row flex-col  items-center ">
+                <div class="w-[400px] flex flex-col gap-3 border h-[95%] rounded-md border-richblack-200 py-4">
+                    <div class=" w-[90%] flex justify-between py-1  mx-auto">
+                        <p class="font-inter font-bold text-richblack-600">Underwent procedure for
+                            retinal detachment</p>
+                            <img class="w-11 h11 " src="assets/doublequatesright.svg" loading="lazy">
+                    </div>
+                    <img class="w-[90%] h-44 mx-auto rounded-md"  src="assets/retinaldetachment.jpg" loading="lazy">
+                    <div class="flex w-[90%] mx-auto">
+                        <img class="w-11 h-11 rounded-full" loading="lazy" src="https://hips.hearstapps.com/hmg-prod/images/portrait-of-a-happy-young-doctor-in-his-clinic-royalty-free-image-1661432441.jpg?crop=0.66698xw:1xh;center,top&resize=1200:*">
+                        <div class="flex flex-col ml-3">  
+                            <p class="font-inter">Luke Olfert</p>
+                            <p class="text-sm font-bold ">New York, USA</p>
+                        </div>
+                    </div>
+                 </div>
+                 
+                 <div class="w-[400px] h-[95%]  flex flex-col gap-3 border rounded-md border-richblack-200 py-4 ">
+                    <div class=" w-[90%] flex justify-between py-1  mx-auto">
+                        <p class="font-inter font-bold text-richblack-600">Underwent procedure for
+                            retinal detachment</p>
+                            <img class="w-11 h11 " src="assets/doublequatesright.svg" loading="lazy">
+                    </div>
+                    <p class="w-[90%] mx-auto text-richblue-100 font-medium text-xm h-44 py-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere nam expedita quaerat eveniet unde aliquid voluptatem laboriosam illum, labore deleniti sed, quae, quia aliquam dolor dolorem distinctio eos earum impedit.</p>
+                    <div class="flex w-[90%] mx-auto">
+                        <img class="w-11 h-11 rounded-full" loading="lazy" src="https://gossclub.com/wp-content/uploads/2021/11/ScreenShot2019-12-05at5.17.43PM.png">
+                        <div class="flex flex-col ml-3">  
+                            <p class="font-inter">Alida Avery</p>
+                            <p class="text-sm font-bold ">California, USA</p>
+                        </div>
+                    </div>
+                 </div>
+            </div> 
+           
+            </div>
+        </section>
+    
+        <!--Doctors section-->
+        <section class="w-full  py-12 md:h-[600px] h-full bg-blue-25 ">
+            <div class="w-10/12 mx-auto h-full">
+                <h1 class=" text-center text-2xl italic text-[#F56749] font-bold font-mono">Doctors</h1>
+                <p class="mx-auto text-center text-4xl font-medium"><span>Top Orthopaedic </span><span class="text-blue-200">Doctors</span></p>
+                <div class="w-full mt-5  flex gap-16 md:flex-row flex-col    ">
+                    <div class="flex flex-col gap-3 md:w-1/3 w-full items-center  bg-white shadow-xl">
+                        <div class="w-[90%] h-60 bg-[#F567] mt-4"></div>
+                        <p class="text-xl italic font-medium text-[#F56749]">Dr. Faique Falke</p>
+                        <p class="font-medium">Muffah Industrial - Abu Dhabi</p>
+                        <p class="text-sm text-richblack-400 font-medium mb-4">Doctor Degree & Specialist</p>
+                    </div>
+                    <div class="flex flex-col gap-3 md:w-1/3 w-full items-center  bg-white shadow-xl">
+                        <div class="w-[90%] h-60 bg-[#F567] mt-4"></div>
+                        <p class="text-xl italic font-medium text-[#F56749]">Dr. Aruna Sharma</p>
+                        <p class="font-medium">Muffah Industrial - Abu Dhabi</p>
+                        <p class="text-sm text-richblack-400 font-medium mb-4">Doctor Degree & Specialist</p> 
+                    </div>
+                    <div class="flex flex-col gap-3 md:w-1/3 w-full items-center  bg-white shadow-xl">
+                        <div class="w-[90%] h-60 bg-[#F567] mt-4"></div>
+                        <p class="text-xl italic font-medium text-[#F56749]">Dr. Stephen Charles</p>
+                        <p class="font-medium">Muffah Industrial - Abu Dhabi</p>
+                        <p class="text-sm text-richblack-400 font-medium mb-4">Doctor Degree & Specialist</p>
+                    </div>
+                </div> 
+            </div> 
+            <div class=" mx-auto flex gap-3 w-24 mt-3">
+                <div class="w-4 h-4 bg-blue-200 rounded-full"></div>
+                <div class="w-4 h-4 bg-richblack-300 rounded-full"></div>
+                <div class="w-4 h-4 bg-richblack-300 rounded-full"></div>
+            </div>
+        </section>
+    
+        <section id="Hospitals" class="w-full md:h-[630px] h-full">
+            <div class="w-10/12 mx-auto">
+                <h1 class=" text-center text-2xl italic text-[#F56749] font-bold font-mono mt-11">Hospitals</h1>
+                <p class="mx-auto text-center text-4xl font-medium"><span>Recommended </span><span class="text-blue-200">Hospitals</span></p>
+                <div class="w-full mt-5  flex md:flex-row flex-col gap-16    ">
+                    <div class="flex flex-col gap-3 md:w-1/3 w-full items-center border border-dashed border-[#F56749] bg-white shadow-xl">
+                        <img class="w-full h-60 bg-brown-100 " src="assets/apollobenlogre.jpg" loading="lazy"></img>
+                        <p class="font-semibold text-xl">Applow Hospital</p>
+                        <p class="font-bold italic text-[#F56749] mb-3">Baglore</p>
+                    </div>
+                    <div class="flex flex-col gap-3 md:w-1/3 w-full items-center border border-dashed border-[#F56749]  bg-white shadow-xl">
+                        <img class="w-full h-60 bg-brown-100 "     src="assets/mendantahospital.png"    loading="lazy"></img>
+                        <p class="font-semibold text-xl">Medanta Hospital</p>
+                        <p class="font-bold italic text-[#F56749] mb-3">Gurgaon</p>
+                    </div>
+                    <div class="flex flex-col gap-3 md:w-1/3 w-full items-center border border-dashed border-[#F56749]  bg-white shadow-xl">
+                        <img class="w-full h-60 bg-brown-100 " src="assets/jaslok-hospital.jpg" loading="lazy"></img>
+                        <p class="font-semibold text-xl">Jaslok Hospital</p>
+                        <p class="font-bold italic text-[#F56749] mb-3s">Mumbai</p>
+                    </div>
+                </div> 
+            </div> 
+    
+            <div class=" mx-auto flex gap-3 w-24 mt-9">
+                <div class="w-4 h-4 bg-blue-200 rounded-full"></div>
+                <div class="w-4 h-4 bg-richblack-300 rounded-full"></div>
+                <div class="w-4 h-4 bg-richblack-300 rounded-full"></div>
+            </div>
+    
+            <p class="mt-11 text-center font-semibold">Dont' Hesitate, contact us for better help and services.  
+                <a class="text-[#F56749] hover:cursor-pointer border-b">  Explore All Hospital</a>  
+            </p>
+            </div>
+        </section>
+    
+        <section id="contactUs" class="w-full md:h-[300px] h-full gradientBackround gap-5 flex flex-col py-16">
+                <p class="text-white text-xl text-center ">Stay Healthy and strong to enjoy life</p>
+                <h1 class="md:text-5xl text-3xl text-white font-semibold text-center text">We have team of healthcare experts</h1>
+                <div class="flex md:flex-row flex-col-reverse mx-auto w-full md:w-1/3 gap-5 items-center">
+                    <button class="px-11 py-3 bg-blue-200 border font-bold border-black text-white hover:shadow-lg transition-all duration-200">Get In Touch</button>
+                    <div class="w-[1px] h-full bg-white rounded-xl"></div>
+                    <p class="text-2xl  text-white font-bold">+91 954 951 8699</p>
+                </div>
+        </section>
+    
+        <section id="moreDetails" class=" h-full md:h-[620px] bg-blue-800 md:mt-0 mt-[-40px]">
+            <div class="w-10/12 flex md:flex-row flex-col justify-between mx-auto py-12">
+                <div class="text-richblack-200">
+                    <h2 class="font-bold mb-4">Important Links</h2>
+                    <ul class="text-sm">
+                        <li> - Home</li>
+                        <li> - About Us</li>
+                        <li> - FAQs</li>
+                        <li> - Blog</li>
+                        <li> - Contact Us</li>
+                    </ul>
+                </div>
+                <div class="text-richblack-200">
+                    <h2 class="font-bold mb-4">Top Hospitals</h2>
+                    <ul class="text-sm">
+                        <li> - Apollo Hospital Delhi</li>
+                        <li> - Medanta Hospital Gurgaon</li>
+                        <li> - Max Hospital Mumbai</li>
+                        <li> - Jaslok Hospital Gurgaon</li>
+                        <li> - Artemis Hospital Gurgaon</li>
+                        <li> - Fortis Hospital Gurgaon</li>
+                        <li> - View All</li>
+                    </ul>
+    
+                </div>
+                <div class="text-richblack-200">
+                    <h2 class="font-bold mb-4">Speciality Treatments</h2>
+                    <ul class="text-sm">
+                        <li> - Knee Replacement Surgeon</li>
+                        <li> - Urologist</li>
+                        <li> - Spine Surgeon</li>
+                        <li> - ENT Surgeon</li>
+                        <li> - Orthopedic</li>
+                        <li> - Cardiologist</li>
+                        <li> - View All</li>
+                    </ul>
+                </div>
+                <div class="text-richblack-200">
+                    <h2 class="font-bold mb-4">Medicine Tourism Destinations</h2>
+                    <ul class="text-sm">
+                        <li> - Medical Tourism in India</li>
+                        <li> - Medical Tourism in Sri Lanka</li>
+                        <li> - Medical Toursim in UAE</li>
+                        <li> - View All</li>
+                    </ul>
+                </div>
+    
+               
+            </div>
+    
+            <div class="w-10/12 mx-auto h-[1px] bg-richblack-600 "></div>
+            <div class="w-10/12 mx-auto flex justify-between py-11  gap-12 ">
+                <div class="w-[60%] flex flex-col gap-11"> 
+                    <img src="./assets/aafia-meditreatreats-high-resolution-logo-transparent.png" loading="lazy">
+                    <div>
+                        <h2 class="text-richblack-100 font-bold">About Aafiya Mediretreats</h2>
+                        <p class="text-richblack-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore vero dolor veritatis, saepe quas commodi autem vitae, earum accusantium doloribus aliquid, repudiandae magni nihil enim pariatur tempore libero hic doloremque! Nobis delectus harum impedit autem soluta! Nihil blanditiis deserunt non!</p>
+                    </div>
+                </div>
+                
+                <div class="w-[30%] flex flex-col gap-4">
+                    <h2 class="text-richblack-100 font-bold w-full ">Follow Us On</h2>
+                    <ul class="flex gap-3">
+                        <li><img src="assets/icons8-facebook.svg" alt="" loading="lazy"></li>
+                        <li><img src="assets/icons8-instagram.svg" alt="" loading="lazy"></li>
+                        <li><img src="assets/icons8-youtube.svg" alt="" loading="lazy"></li>
+                        <li><img src="assets/icons8-twitterx.svg" alt="" loading="lazy"></li>
+                    </ul>
+                    <div>
+                        <p class="text-base text-richblack-100 font-bold">Customer Service</p>
+                    <p class=" text-blue-100 text-xl font-bold ">+91 9549518699</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+    
+        <footer  class="bg-blue-100 md:mt-0 mt-[-40px]">
+            <div class="w-10/12 mx-auto flex justify-between py-4 text-white">
+                <p>Copyright &#169; Aafiya Meditretreats. All Rights are Reserved. Designed by Ideamagix</p>
+                <div class="flex gap-6">
+                    <p>Terms And Conditions</p>
+                    <p>Privacy Policy</p>
+                </div>
+            </div>
+        </footer>
+    </div>   
+    
+    <script src="script.js"></script>
+</body>
+</html>
